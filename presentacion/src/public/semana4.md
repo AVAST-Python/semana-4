@@ -2,7 +2,7 @@
 
 # Introducción a Python
 
-## Semana 3
+## Semana 4
 <!-- .element style="text-align:center" -->
 
 ![alt text](./img/logo2.png) <!-- .element style="margin-left: auto; margin-right: auto; display: block" -->
@@ -17,6 +17,7 @@
 - Presentaciones de las semanas anteriores:
   - [https://avast-python.github.io/semana-1](https://avast-python.github.io/semana-1)
   - [https://avast-python.github.io/semana-2](https://avast-python.github.io/semana-2)
+  - [https://avast-python.github.io/semana-3](https://avast-python.github.io/semana-3)
 
 
 ---
@@ -26,61 +27,15 @@
 1. ~~Secuencia~~ ✓
 2. Condicionales <-
 3. Repetición <-
-4. Variables <-
-5. Funciones
+4. ~~Variables~~ ✓
+5. Funciones <-
 
 ---
 
-## Vuelta al `for`
+# Repaso
 
-
-```python
-lado = 10
-vueltas = 10
-for num_vuelta in range(vueltas):
-    t.forward(num_vuelta * lado)
-    t.left(90)
-```
-<!-- .element style="font-size: 1em" -->
-
-- Puedo usar variables para pintar
-- Puedo acceder a `num_vuelta` dentro del bucle (no hace falta que se llame `num_vuelta`)
-- Empieza en cero
-- ¿Qué pintará esto?
-
-
---
-
-# Ejercicio 1
-
-```
-lados = 4
-largo_lado = 100
-
-# Aquí tu código
-```
-<!-- .element style="font-size: 1em" -->
-
-- Pinta un polígono de ese número de lados y con esa longitud
-- Tiene que funcionar sin tener que modificar el programa aunque cambies las variables
-
-![Ejercicio 1](./img/ejercicio_1.png) <!-- .element class="noborder center" -->
-
-**Pista**: En un polígono regular todos los ángulos internos son iguales
-y la suma es igual a 180° × (lados – 2).
-
-
-**Extra**: Haz que en la base vaya un vértice, no una arista
-
----
-
-# Ejercicio 2
-
-![Ejercicio 2.1](./img/ejercicio_2_1.png) <!-- .element class="noborder center" -->
-
-#### Extra: <!-- .element style="text-align:center" -->
-
-![Ejercicio 2.2](./img/ejercicio_2_2.png) <!-- .element class="noborder center" -->
+![Ejercicio s3 2.1](./img/ejercicio_s3_2_1.png) <!-- .element class="noborder center" -->
+![Ejercicio s3 2.2](./img/ejercicio_s3_2_2.png) <!-- .element class="noborder center" -->
 
 
 ---
@@ -107,9 +62,9 @@ for vuelta_exterior in range(5):
 
 ---
 
-# Ejercicio 3
+# Ejercicio 1
 
-![Ejercicio 3](./img/ejercicio_3.png) <!-- .element class="noborder center" -->
+![Ejercicio 1](./img/ejercicio_s4_1.png) <!-- .element class="noborder center" -->
 
 **Extra**: ¿Puedes hacerlos utilizando variables para el largo de la línea, distancia entre líneas, lado del cuadrado largo...?
 
@@ -158,7 +113,7 @@ else:
 
 ```python
 if numero % 2 == 0:
-    print('El número es par')
+    print('OLA K ASE')
 ```
 <!-- .element style="font-size: 1em" -->
 
@@ -186,8 +141,8 @@ else:
 
 ---
 
-# Ejercicio 4
+# Ejercicio 2
 
-![Ejercicio 4](./img/ejercicio_4.png) <!-- .element class="noborder center" -->
+![Ejercicio 4](./img/ejercicio_s4_2.png) <!-- .element class="noborder center" -->
 
 **Extra**: Haz el dibujo que tiene varias líneas
