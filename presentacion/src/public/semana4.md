@@ -146,3 +146,50 @@ else:
 ![Ejercicio 4](./img/ejercicio_s4_2.png) <!-- .element class="noborder center" -->
 
 **Extra**: Haz el dibujo que tiene varias líneas
+
+
+---
+
+# Funciones
+
+```python
+# Definición de función
+def saludar(nombre):
+    print('¡Hola, '+ nombre + '!')
+
+```
+<!-- .element style="font-size: 0.8em" -->
+
+```python
+# Llamada a función
+saludar('Pepe')
+saludar('Juan')
+
+# Esto no haría lo que esperas:
+saludar
+```
+<!-- .element style="font-size: 0.8em" -->
+
+- Una función es un nombre para un conjunto de instrucciones
+- Hay que definirlas primero
+- Se le pueden pasar parámetros
+- Podemos utilizarlas todas las veces que queramos
+- Sirven para dos cosas:
+  - Reutilizar código
+  - Hacer el programa más claro
+
+---
+
+# Ejemplo
+
+![Ejemplo 1](./img/ejemplo_s4_1.png) <!-- .element class="noborder center" -->
+
+
+---
+
+# Ejercicio 3
+
+![Ejercicio 3](./img/ejercicio_s4_1.png) <!-- .element class="noborder center" -->
+
+¿Qué cosas podríamos definir como funciones en cada dibujo?
+
